@@ -20,7 +20,11 @@ function sequencer () {
  }
 }
 
+function startMuzik() {
+    console.log('muzzzzzikkk');
+ Tone.Transport.start();
 
+}
 sequencer();
 
 
