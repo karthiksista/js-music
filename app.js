@@ -5,6 +5,7 @@ function sequencer () {
 
  Tone.Transport.scheduleRepeat(repeat,'8n');
  Tone.Transport.start();
+ console.log('here')
  function repeat() {
      let step = index % 8;
      let kickInputs = document.querySelector(`.kick input:nth-child(${step +1})`);
